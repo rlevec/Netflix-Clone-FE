@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    src: url(./Netflix\ Sans\ Medium.otf)
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    background: #000000;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+:root {
+    --primaryColorOne: rgb(255,255,255);
+    --primaryColorTwo: rgb(229, 9, 20);
+    --primaryColorThree: rgb(0,0,0);
+
+    --secondaryColorOne: rgb(45,45,45);
+    --secondaryColorTwo: rgb(65,65,65);
+    --secondaryColorThree: rgba(128,128,128,1);
+    --secondaryColorFour: rgb(36, 37, 38);
+
+    --inputColorOne: rgba(200,200,200, 1);
+
+    --desktopTitleFontSize: 3rem;
+    --desktopSubTitleFontSize: 1.5rem;
+    --desktopContentFontSize: 1.25rem;
+
+    --tabletTitleFontSize: 2rem;
+    --tabletSubTitleFontSize: 1.125rem;
+    --tabletContentFontSize: 1.125rem;
+
+    --desktopTitleFontWeight: 900;
+    --desktopSubTitleFontWeight: 400;
+    --desktopSubContentFontWeight: 400;
+
+    --desktopInputFontSize: 1rem;
+
+    --desktopSignInButtonFontSize: 0.85rem;
+
+    --buttonFontWeight: 550;
+
+    --inputFontWeight: 400;
+
+    --buttonHoverBackgroundColor: rgb(193,17,25);
+    --borderRadius: 0.25rem;
+    --borderColor: rgba(112,112,112, 1);
+
+
+    --successColor: rgb(34,187,51);
+    --errorColor: rgb(235, 57, 66);
+    --errorFontSize: 0.8125rem;
+    --secondaryErrorColor: rgb(193, 17, 25);
+
+    --footerFontColor: rgba(255,255,255,0.7);
+    --footerFontSizePrimary: 1rem;
+    --footerFontSizeSecondary: 0.825rem;
+    --footerFontWeight: 400;
+    --secondaryFooterBackgroundColor: rgb(243, 243, 243);
+    --secondaryFooterFontColor: rgb(115, 115, 115);
+
+    --loginFormInputFieldErrorColor: rgb(232, 124, 3);
+
+    --borderBottomSignUpHeader: rgb(230, 230, 230);
+    --buttonAuthSignUpColor: rgb(51, 51, 51);
+}
